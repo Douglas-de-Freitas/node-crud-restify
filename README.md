@@ -1,8 +1,7 @@
 # Aplicação RESTful com Node.js
+Este repositório contem a aplicação RESTful desenvolvida com Node.js que controla as operações CRUD em um banco de dados pg (postgres). Você pode encontrar um curso completo com a explicação do desenvolvimento acessando o link https://www.udemy.com/aplicacoes-web-na-pratica-javascript-nodejs/?couponCode=FB_DEC_JANFEB
 
 ![alt text](https://github.com/Douglas-de-Freitas/node-crud-restify/blob/master/sistema.PNG?raw=true)
-
-Este repositório contem a aplicação RESTful desenvolvida com Node.js que controla as operações CRUD em um banco de dados pg (postgres). Você pode encontrar um curso completo com a explicação do desenvolvimento acessando o link https://www.udemy.com/aplicacoes-web-na-pratica-javascript-nodejs/?couponCode=FB_DEC_JANFEB
 
 Os seguintes módulos e ferramentas foram utilizados para o desenvolvimento da aplicação:
 
