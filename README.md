@@ -33,7 +33,7 @@ No arquivo index.js, troque os valores de configuração do MySQL por aqueles ut
 
 ```javascript
 var knex = require('knex')({
-  client: 'mysql',
+  client: 'pg',
   connection: {
     host : 'seu_host',
     user : 'seu_usuario',
