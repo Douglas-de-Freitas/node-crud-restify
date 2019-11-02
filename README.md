@@ -1,5 +1,5 @@
 # Aplicação RESTful com Node.js
-Este repositório contem a aplicação RESTful desenvolvida com Node.js que controla as operações CRUD em um banco de dados pg (postgres). Você pode encontrar um curso completo com a explicação do desenvolvimento acessando o link https://www.udemy.com/aplicacoes-web-na-pratica-javascript-nodejs/?couponCode=FB_DEC_JANFEB
+Este repositório contem a aplicação RESTful desenvolvida com Node.js que controla as operações CRUD em um banco de dados pg (postgres).
 
 ![alt text](https://github.com/Douglas-de-Freitas/node-crud-restify/blob/master/sistema.PNG?raw=true)
 
@@ -29,7 +29,7 @@ insert into rest values(1, 'Ricardo Teixeira');
 insert into rest values(2, 'Maria Joaquina');
 ```
 
-No arquivo index.js, troque os valores de configuração do MySQL por aqueles utilizados por você.
+No arquivo index.js, troque os valores de configuração do Postgres por aqueles utilizados por você.
 
 ```javascript
 var knex = require('knex')({
@@ -55,4 +55,5 @@ Após concluída a instalação, execute o comando `nodemon index.js`
 
 A partir do **Postman**, basta acessar as rotas criadas com os verbos http corretos.
 
-Referência: https://github.com/bmarchete/node-crud-restify
+Referência: https://www.udemy.com/course/aplicacoes-web-na-pratica-javascript-nodejs/
+Projeto Original (Sem Modificações): https://github.com/bmarchete/node-crud-restify
